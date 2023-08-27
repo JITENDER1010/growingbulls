@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Growing Bulls</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="icon.css">
+    <link rel="icon" type="image/x-icon" href="images/growing.jpg">
+   
+</head>
+<body>
+   <header>
+
+    <section class="menu">
+        <button id="close-menu" >&times;</button>
+        <ul class="nav-links">
+            <li data-same=""><a href="#">Home</a></li>
+            <li data-same><a href="#feature">Features</a></li>
+              <li data-same><a href="#courses">Courses</a></li>
+          <li data-same><a href="#contact">Contact</a></li>
+        </ul>
+    </section>
+        <nav>
+            <div class="logo">
+                <img src="images/growing.jpg" alt="">
+            </div>
+       <div class="default-nav"> 
+             <ul class="nav-links">
+           <li><a href="#">Home</a></li>
+           <li><a href="#feature">Features</a></li>
+             <li><a href="#courses">Courses</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </ul>
+    </div>
+       <div class="mobile-nav">
+        <button id="menu-button" >Menu</button>
+      </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Growing Bulls</h1>
+            <p class="role"></p>
+           
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <!-- You can replace this with an actual image -->
+            <img src="images/about.webp" alt="App Screenshot">
+        </div>
+    </section>
+
+    <section class="features" id="feature">
+        <h2>Features </h2>
+        <div class="feature">
+            <h3>Feature 1 </h3>
+            <p>We provide 24/7 live support</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Live trading classes with our founder <b>Jitender sharma</b></p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>1-2 Offline Classes in a month at Growing bulls offline center </p>
+    </section>
+    <!-- ... (previous code) ... -->
+ <h2 id="head">Courses</h2>
+<section class="courses" id="courses">
+    <div class="course">
+        <img src="images/freecour.jpeg" alt="Course 1">
+        <h3>Chart patterns</h3>
+        <p>know about chart patterns</p><br>
+        <p id="price" style="color: green;"><b>Free</b></p>
+        <button class="btn btn-sep icon-cart">Buy</button>
+    </div>
+    <div class="course">
+        <img src="images/a-z.jpeg" alt="Course 2">
+        <h3>A-Z Trading</h3>
+        <p>A-Z beginner to Advance course  </p><br>
+        <p id="price" style="color: green;"><b>₹ 5499</b></p>
+        <button class="btn btn-sep icon-cart">Buy</button>
+    </div>
+    <div class="course">
+        <img src="images/new.jpg" alt="Course 3">
+        <h3>Scalp trader</h3>
+        <p> Course includes 30 live trading seasions on scalping</p>
+        <br>
+        <p id="price" style="color: green;"><b>₹ 999</b></p>
+        <button class="btn btn-sep icon-cart">Buy</button>
+    </div>
+</section>
+<!-- contact us section  -->
+
+<section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions or inquiries, feel free to get in touch with me.</p>
+    <form class="contact-form" data-netlify="true" onsubmit="submit">
+        <input type="text" placeholder="Your Name" name="text">
+        <input type="email" placeholder="Your Email" name="email">
+        <textarea placeholder="Your Message" ></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- ... (remaining code) ... -->
+
+
+    <footer>
+        <p>&copy; 2023.Growing bulls. All rights reserved.</p>
+        <div class="icon-wrapper">
+            <a href="https://www.linkedin.com/in/jitender-sharma-806835178/ " target="_blank" id="linkedin"><i class="fa-brands fa-linkedin icon"></i></a>
+            <a href="https://github.com/JITENDER1010" target="_blank"  id="git"><i class="fa-brands fa-github icon"></i></a>
+            <!-- <a href="mailto:aatushsharma@gmail.com"><i class="fa-solid fa-envelope icon"></i></a> -->
+            <!-- <a href="https://leetcode.com/noobjitu/" target="_blank"><img src="images/leetcodee.png" class="logo"> </a> -->
+           <!-- <a href="https://www.linkedin.com/in/jitender-sharma-806835178/" target="_blank" id=""><i class="fa-brands fa-linkedin icon"></i></a> -->
+            <!-- <i class="fa-brands fa-github icon"></i> -->
+            <a href="https://www.instagram.com/" target="_blank"  id="insta"><i class="fa-brands fa-instagram icon"></i></a>
+            <!-- <i class="fa-brands fa-envelope icon"></i>  -->
+         
+          </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+          strings: [
+            "India's Leading <b>trading Company</b>...",
+         " Our Founder is <b>Jitender sharma</b>..."   
+         
+          ],
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 80,
+          backDelay: 1000,
+        });
+        </script>
+        <script src="index.js"></script>
+</body>
+</html>

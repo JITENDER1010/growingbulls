@@ -1,0 +1,17 @@
+.icon-wrapper{
+    margin-top: 1rem;
+  font-size:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#insta{
+    color: red;
+}
+#linkedin{
+    color: rgb(23, 23, 245);
+}
+#git{
+    color: white;
+}

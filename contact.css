@@ -1,0 +1,54 @@
+/* ... (previous styles) ... */
+
+/* Contact section styles */
+.contact {
+    /* max-width: 1200px; */
+    /* width: 50%; */
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgb(197, 227, 197);
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* ... (remaining styles) ... */
